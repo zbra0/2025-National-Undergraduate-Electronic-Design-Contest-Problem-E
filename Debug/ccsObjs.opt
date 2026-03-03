@@ -1,0 +1,17 @@
+"./main.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./Drivers/ADC/ADC.o"
+"./Drivers/Blue_teeth/Blue_teeth.o"
+"./Drivers/Clock/Clock.o"
+"./Drivers/Encoder/Encoder.o"
+"./Drivers/Grayscale_Sensor/Grayscale_Sensor.o"
+"./Drivers/OLED_Software_I2C/oled_software_i2c.o"
+"./Drivers/Ultrasonic_GPIO/ultrasonic_gpio.o"
+"./Drivers/car/car.o"
+"./Drivers/pid/pid.o"
+"./Drivers/servo/servo.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
+-l"D:/ti/mspm0_sdk_2_05_01_00/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a"
